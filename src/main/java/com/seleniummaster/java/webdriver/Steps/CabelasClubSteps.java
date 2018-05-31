@@ -3,6 +3,7 @@ package com.seleniummaster.java.webdriver.Steps;
 import Pages.CabelasClubPage;
 import cucumber.api.java.en.Then;
 import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertTrue;
 
 public class CabelasClubSteps {
 
