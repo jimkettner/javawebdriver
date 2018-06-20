@@ -9,7 +9,7 @@ public class CabelasHomePageSteps {
     CabelasHomePage CHP = new CabelasHomePage();
 
     @Then("^the Cabelas Home Page will be displayed")
-    public void user MovesToCabelasHomePage() throws Throwable {
+    public void userMovesToCabelasHomePage() throws Throwable {
         assertTrue(CHP.isOnCabelasHomePage());
     }
 

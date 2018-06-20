@@ -8,7 +8,7 @@ public class CabelasFreeShippingSteps {
 
     CabelasFreeShippingPage CFSP = new CabelasFreeShippingPage();
 
-    @Then("^the Cabelas Free Shipping PAge is displayed$")
+    @Then("^the Cabelas Free Shipping Page is displayed$")
     public void userMovesToCabelasFreeShippingPage() throws Throwable {
         assertTrue(CFSP.isOnCabelasFreeShippingPage());
     }

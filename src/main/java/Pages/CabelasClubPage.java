@@ -1,10 +1,18 @@
 package Pages;
 
 import Base.BasePage;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 
 public class CabelasClubPage extends BasePage {
 
-//    private static final String class = "headerNavClubLink";
-//    public String url = String.format("https://www.cabelas.com/custserv/custserv.jsp?pageName=clubhome");
+
+    public static WebElement element;
+
+    public boolean isOnCabelasClubPage(){
+        return hasElementDisplayed(By.cssSelector(".headerNavClubLink"));
+
+
+    }
 }
 

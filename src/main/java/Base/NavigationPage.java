@@ -7,25 +7,48 @@ public class NavigationPage {
 
 
         switch (pageName){
-            case "HomePage":
-                url.equals("https://www.cabelas.com");
+            case "CabelasHomePage":
+                url = "https://www.cabelas.com";
             break;
 
             case "CanadaHomePage":
-                url.equals("https://www.cabelas.ca");
+                url = "https://www.cabelas.ca";
             break;
 
             case "CabelasClubPage":
-                url.equals("https://www.cabelas.com/custserv/custserv.jsp?pageName=clubhome");
+                url = "https://www.cabelas.com/custserv/custserv.jsp?pageName=clubhome";
             break;
 
             case "CabelasFAQPage":
-                url.equals("https://cabelas.custhelp.com/app/answers/list");
+                url = "https://cabelas.custhelp.com/app/answers/list";
             break;
 
             case "CabelasFreeShippingPage":
-                url.equals("https://www.cabelas.com/custserv/custserv.jsp?pageName=Shipping");
+                url = "https://www.cabelas.com/custserv/custserv.jsp?pageName=Shipping";
             break;
+
+            case "HuntingPage":
+                url = "https://www.cabelas.com/category/Hunting/104791680.uts";
+            break;
+
+            case "FishingPage":
+                url = "https://www.cabelas.com/category/Fishing/104793480.uts";
+            break;
+
+            case "ShootingPage":
+                url = "https://www.cabelas.com/category/Shooting/104792580.uts";
+            break;
+
+            case "LearnPage":
+                url = "https://www.cabelas.com/category/Its-In-Your-Nature/540412380.uts";
+            break;
+
+            case "BargainCavePage":
+                url = "https://www.cabelas.com/category/Bargain-Cave/105591780.uts";
+            break;
+
+            case "CustomerServiceEmailPage":
+                url = "https://cabelas.custhelp.com/app/ask";
         }
 
 

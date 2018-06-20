@@ -8,7 +8,7 @@ public class CabelasFAQPageSteps {
 
     CabelasFAQPage CFAQP = new CabelasFAQPage();
 
-    @Then("^ the Cabelas FAQ Page is displayed$")
+    @Then("^the Cabelas FAQ Page is displayed$")
     public void userMovesToCabelasFAQPage() throws Throwable {
         assertTrue(CFAQP.isOnCabelasFAQPage());
     }

@@ -1,12 +1,15 @@
 package Pages;
 
 import Base.BasePage;
+import org.openqa.selenium.By;
 
 
 public class CabelasFAQPage extends BasePage {
 
-   // href="https://cabelas.custhelp.com/app/answers/list"
-    }
+    public boolean isOnCabelasFAQPage(){
+        return hasElementDisplayed(By.cssSelector("#comhdrlayertwo"));
+   }
+}
 
 
 
